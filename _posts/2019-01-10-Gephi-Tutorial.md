@@ -11,7 +11,7 @@ Gephi is a visualization and exploration software for graphs and networks. Like 
 
 ### Installation
 Gephi is open-source, free to download and runs on Windows, Mac OS X and Linux. For installation, you can visit [Gephi](https://gephi.org/).
-![Gephi 0.9.2](https://github.com/Racheal7/RachelWang.github.io/blob/master/static/img/1.png)
+![Gephi 0.9.2](/static/img/1.png)
 ***
 
 ### Data Processing 
