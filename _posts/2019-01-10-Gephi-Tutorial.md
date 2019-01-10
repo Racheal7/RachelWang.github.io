@@ -6,13 +6,14 @@ categories: Gephi
 
 # How to use Gephi for Data Analysis
 
-    Gephi is a visualization and exploration software for graphs and networks. Like Photoshop but for graph data, the user interacts with the representation, manipulate the structures, shapes and colors to reveal hidden patterns. This tutorial will provide you an overview of Gephi.
+Gephi is a visualization and exploration software for graphs and networks. Like Photoshop but for graph data, the user interacts with the representation, manipulate the structures, shapes and colors to reveal hidden patterns. This tutorial will provide you an overview of Gephi.
 
 <hr />
 
 ## **Installation**
 
 Gephi is open-source, free to download and runs on Windows, Mac OS X and Linux. For installation, you can visit [Gephi](https://gephi.org/).
+
 
 ![Gephi 0.9.2]({{"/static/img/1.png" | prepend: site.baseurl}})
 
@@ -22,13 +23,17 @@ Gephi is open-source, free to download and runs on Windows, Mac OS X and Linux. 
 
 Two kinds of data files:
 + **"Nodes" list**: Contains the identifiers of each nodes, their label and their id. 
-<br/>
+
+
 ![Nodes list]({{"/static/img/2.png" | prepend: site.baseurl}})
-<br/>
+
+
 + **"Edges" list**: The first two columns are the node ID and the other column is the correlation coefficient.
-<br/>
+
+
 ![Edges list]({{"/static/img/3.png" | prepend: site.baseurl}})
-<br/>
+
+
 <hr />
 
 ## **Importing Data into Gephi**
