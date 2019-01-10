@@ -31,6 +31,7 @@ Two kinds of data files:
 <br/>
 
 + **"Edges" list**: The first two columns are the node ID and the other column is the correlation coefficient.
+
 <br/>
 <br/>
 ![Edges list]({{"/static/img/3.png" | prepend: site.baseurl}})
@@ -42,6 +43,7 @@ Two kinds of data files:
 ## **Importing Data into Gephi**
 
 Run the application on your computer, click **"New Project"** to create a new Gephi project in the start menu.
+
 <br/>
 <br/>
 ![Create Project]({{"/static/img/create_project.png" | prepend: site.baseurl}})
@@ -49,6 +51,7 @@ Run the application on your computer, click **"New Project"** to create a new Ge
 <br/>
 
 Click **"File"** -> **"Import spreadsheet"** -> Choose your data file and click **"Open"** to import your data files.
+
 <br/>
 <br/>
 ![Import spreadsheet]({{"/static/img/file.png" | prepend: site.baseurl}})
@@ -59,6 +62,7 @@ Specify all information that is required:
 + **Separator**: Specify the separation (comma, semicolon, tab or space) between your data. 
 + **Import as**: Choose the kind of data file you are importing (Nodes table, Edges table, adjacency list or matrix)
 + **Charset**: Select the encoding of your data.
+
 <br/>
 <br/>
 ![Import spreadsheet]({{"/static/img/spreadsheet.png" | prepend: site.baseurl}})
@@ -66,6 +70,7 @@ Specify all information that is required:
 <br/>
 
 Click **"Next"** and **"Finish"**. You should now see a graph.
+
 <br/>
 <br/>
 ![Overview]({{"/static/img/overview.png" | prepend: site.baseurl}})
@@ -74,15 +79,15 @@ Click **"Next"** and **"Finish"**. You should now see a graph.
 
 <hr />
 
-## Visualization
+## **Visualization**
 
 The action now takes place on the overview panel. The software produces an overview of the graph, spatialized randomly (and completely unreadable). We need to set some layout styles to make it readable.
 
 <br/>
-<br/>
-### Run a layout
+### **Run a layout**
 
 Layout algorithms set the graph shape, it is the most essential operation. Gephi offers a variety of layout algorithms including **ForceAtlas, OpenOrd, Circular Layout** and etc. After choosing a layout, there are multiple properties you can change to control the algorithm in order to make a readable representation.
+
 <br/>
 <br/>
 ![Various Layout]({{"/static/img/variouslayout.png" | prepend: site.baseurl}})
@@ -94,6 +99,7 @@ You should select one layout algorithm according to the feature of the topology 
 Here I will take the ForceAtlas as an example:
 
 + Locate the Layout module on the left panel.
+
 <br/>
 <br/>
 ![Layout Panel]({{"/static/img/layoutpanel.png" | prepend: site.baseurl}})
@@ -104,6 +110,7 @@ Here I will take the ForceAtlas as an example:
 + Click **"Run"** to launch the algorithm. You can see now the positions of nodes changeing in real time. Let tha algorithm run until the graph is stablilized.
 + Click **"Stop"** to stop the algorithm. You should now see a graph with the layout applied. Use the little blue magnifying glass (bottom left of the graph panel) to re-center the zoom.
 + Then you can run **"Noverlap"** and **"Expansion"** algorithms to prevent nodes overlapping.
+
 <br/>
 <br/>
 ![ForceAtlas Graph]({{"/static/img/forceatlas.png" | prepend: site.baseurl}})
@@ -119,6 +126,7 @@ Next we can change the size, color of the nodes and edges to make the graph more
 + Then you can choose a color that you like.
 + Click **"Apply"**.
 + Do the same with Edges.
+
 <br/>
 <br/>
 ![Appearance Panel]({{"/static/img/appearance.png" | prepend: site.baseurl}})
@@ -126,6 +134,7 @@ Next we can change the size, color of the nodes and edges to make the graph more
 <br/>
 
 Now you can see a colorful Force Atlas graph.
+
 <br/>
 <br/>
 ![Set Color]({{"/static/img/setcolor.png" | prepend: site.baseurl}})
@@ -135,6 +144,7 @@ Now you can see a colorful Force Atlas graph.
 ### **Set Labels**
 
 There is a tiny black arror at the right bottom of the graph display. Click that arrow and you can find the Label panel. Then click the black **"T"** to add labels. 
+
 <br/>
 <br/>
 ![Set Label]({{"/static/img/labelpanel.png" | prepend: site.baseurl}})
@@ -142,6 +152,7 @@ There is a tiny black arror at the right bottom of the graph display. Click that
 <br/>
 
 You can set different font styles, colors and sizes. You can also choose to add labels to the nodes, edges or both. If wanted, you can also click on the “Configure” link to set the data you want to get displayed.
+
 <br/>
 <br/>
 ![]({{"/static/img/label.png" | prepend: site.baseurl}})
@@ -151,6 +162,7 @@ You can set different font styles, colors and sizes. You can also choose to add 
 ### **Preview and Export**
 
 Before export graphs, you can go to the **Preview** panel and check the final details. You can change properties on the left **Preview Settings** panel. Changing settings in this menu is reversible, and do not affect the structure of the graph.  The graph may take a few seconds to update after each change (click on **Refresh** to apply the changes).
+
 <br/>
 <br/>
 ![Preview]({{"/static/img/preview.png" | prepend: site.baseurl}})
@@ -183,6 +195,7 @@ In this tutorial, I will show you how to generate a community detection graph.
 <br/>
 
 The next step takes place in the Partition menu situated in the left column of the Overview page. Select **"Nodes"**, **"Partition"** and **"Modularity Class"** (rolling menu). You will be then able to modify the colors attributed to the detected communities by clicking on them.
+
 <br/>
 <br/>
 ![Partition Panel]({{"/static/img/partition.png" | prepend: site.baseurl}})
@@ -190,6 +203,7 @@ The next step takes place in the Partition menu situated in the left column of t
 <br/>
 
 Once you have set up a color for each community, click **"Apply"** and you can see the community detection graph.
+
 <br/>
 <br/>
 ![Community detection graph]({{"/static/img/communitydetection.png" | prepend: site.baseurl}})
