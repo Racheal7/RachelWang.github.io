@@ -173,7 +173,7 @@ At the bottom of this preview column, you find an export link. Note that exporti
 
 <hr />
 
-## Community Detection
+## **Community Detection**
 
 The visualization only is not enough for data analysis as it often needs other mathematical means to provide the researcher with a satisfactory result. The **Statistics** menu on the right provides more options: degree measures, density, path length, modularity and etc...
 
