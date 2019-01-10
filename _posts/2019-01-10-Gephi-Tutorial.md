@@ -22,17 +22,18 @@ Gephi is open-source, free to download and runs on Windows, Mac OS X and Linux. 
 ## **Data Processing** 
 
 Two kinds of data files:
+
 + **"Nodes" list**: Contains the identifiers of each nodes, their label and their id. 
-
-
+<br/>
+<br/>
 ![Nodes list]({{"/static/img/2.png" | prepend: site.baseurl}})
-
+<br/>
+<br/>
 
 + **"Edges" list**: The first two columns are the node ID and the other column is the correlation coefficient.
-
-
+<br/><br/>
 ![Edges list]({{"/static/img/3.png" | prepend: site.baseurl}})
-
+<br/><br/>
 
 <hr />
 
