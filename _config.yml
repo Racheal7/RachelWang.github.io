@@ -5,8 +5,8 @@ logo: /RachelWang.github.io/static/img/avatar.png
 github: https://github.com/Rachel7
 about: Freelance developer
 
-baseurl: ""
-url: ""
+baseurl: "https://racheal7.github.io/RachelWang.github.io/"
+url: "https://racheal7.github.io/RachelWang.github.io/"
 
 allowsearch: true
 
