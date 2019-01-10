@@ -5,8 +5,8 @@ logo: /hcz-jekyll-blog/static/img/avatar.png
 github: https://github.com/codeasashu
 about: Freelance developer
 
-baseurl: "https://racheal7.github.io/RuiqiWang.github.io/"
-url: "https://racheal7.github.io/RuiqiWang.github.io/"
+baseurl: ""
+url: ""
 
 allowsearch: true
 
