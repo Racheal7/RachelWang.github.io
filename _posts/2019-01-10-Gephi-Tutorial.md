@@ -161,7 +161,7 @@ You can set different font styles, colors and sizes. You can also choose to add 
 
 ### **Preview and Export**
 
-Before export graphs, you can go to the **Preview** panel and check the final details. You can change properties on the left **Preview Settings** panel. Changing settings in this menu is reversible, and do not affect the structure of the graph.  The graph may take a few seconds to update after each change (click on **Refresh** to apply the changes).
+Before export graphs, you can go to the **Preview** panel and check the final details. You can change properties on the left **Preview Settings** panel. Changing settings in this menu is reversible, and do not affect the structure of the graph.  The graph may take a few seconds to update after each change (click on **Refresh** to apply the changes). If your preview window still doesn't work, try the following instructions: Go to main menu, Windows and then click preview. Also click Preview setting. Now press refresh on preview setting tab, you will find the preview.
 
 <br/>
 <br/>
